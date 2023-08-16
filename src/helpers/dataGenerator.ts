@@ -9,8 +9,6 @@ import { Categoria } from "../models/categoria";
 import { Comentario } from "../models/comentario";
 import { Post } from "../models/post";
 
-// const post = {id:1, titulo: randFileName(), contenido: randText()}
-
 const generateFakeCategories = async (): Promise<void> => {
   const categoryData = [];
   for (let i = 1; i <= 1; i++) {
