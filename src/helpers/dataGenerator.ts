@@ -11,7 +11,7 @@ import { Post } from "../models/post";
 
 const generateFakeCategories = async (): Promise<void> => {
   const categoryData = [];
-  for (let i = 1; i <= 1; i++) {
+  for (let i = 1; i <= 10; i++) {
     const category = { id: i, nombre: randAnimalType() };
     categoryData.push(category);
   }
